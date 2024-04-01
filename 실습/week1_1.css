@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Pretendard-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+      format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+  .black-han sans-regular {
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  * {
+    font-family: "Black Han Sans", sans-serif;
+  }
+  body {
+    background-color: #f4f4f4;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    background-color: #cdeece;
+    width: 100%;
+  }
+  .header-r {
+    display: flex;
+    float: right;
+    margin-right: 150px;
+    h1 {
+      margin-left: 20px;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .big-head {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    /* 중앙 배열 코드 추가 */
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 2rem;
+  }
+  .big-head > h1 {
+    margin-left: 150px;
+    padding: 0;
+    font-size: 2rem;
+  }
+
+  .main-page{
+    margin-left: 150px;
+    margin-right: 150px;
+    }
+  .content{
+    display: flex;
+    justify-content: space-between;
+  }
+  .content>img{
+    width: 500px;
+    margin: auto;
+  }
+  .content>div{
+    width: 50%;
+    float: right;
+    text-align: center;
+    align-self: center;
+  }
+  .introduce_text > p {
+    color: #7cc480;
+    text-align: center;
+    font-family: "Black Han Sans", sans-serif;
+    margin-top: 3rem;
+    font-size: 2.2rem;
+    font-weight: 300;
+    line-height: 1em; /* 줄 간격을 1.5배로 설정 */
+  }
+  .emphasize {
+    font-family: "Black Han Sans", sans-serif;
+    color: white;
+    font-size: 30px;
+    text-shadow: -1px -1px 0 #7cc480, 1px -1px 0 #7cc480, -1px 1px 0 #7cc480,
+      1px 1px 0 #7cc480;
+  }
+  img {
+    width: 18rem;
+    /* 이미지 모서리 둥근 정도 추가 */
+    margin-bottom: 120px;
+    /* 이미지 그림자 추가 */
+  }
+  
+  footer {
+    background-color: #cdeece;
+    /* 폰트 색 추가 */
+    /* 텍스트 중앙 정렬 추가 */
+    padding: 1em;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    
+  }
+  footer > p {
+    font-family: "Pretendard-Regular";
+    font-weight: 600;
+    margin-left: 150px;
+  }

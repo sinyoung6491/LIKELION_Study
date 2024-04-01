@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#background{
+    margin: auto;
+    width: 1250px;
+    height: 1080px;
+    background-color: #D9D9D9;
+}
+.header{
+    height: 100px;
+}
+.center{
+    height: 880px;
+    display: flex;
+}
+.content01{
+    width: 416px;
+    background-color: #FFC8DD;
+}
+.content02{
+    width: 416px;
+    background-color: #FFAFCD;
+}
+.content03{
+    width: 416px;
+    background-color: #D9D9D9;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin-top: 70%;
+    margin-left: 20%;
+}
+.footer{
+    height: 100px;
+    background-color: #A3DEFF;
+}

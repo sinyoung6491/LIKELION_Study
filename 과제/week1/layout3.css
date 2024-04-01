@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#background{
+    margin: auto;
+    width: 1250px;
+    height: 1080px;
+}
+.header{
+    height: 100px;
+    background-color: #DE7D86;
+}
+.center{
+    height: 880px;
+}
+#content01{
+    height: 50%;
+    background-image: url(img/Rectangle.png);
+}
+.content{
+    height: 50%;
+    display: flex;
+}
+.content01{
+    width: 33.33%;
+    background-color: #FFC5C5;
+}
+.content02{
+    width: 33.33%; 
+    background-color: #FFA3A3;   
+}
+.content03{
+    width: 33.33%;
+    background-color: #54D8DC;   
+}
+
+.footer{
+    height: 100px;
+    background-color: #6E6875;
+}
