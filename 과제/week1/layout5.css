@@ -3,6 +3,7 @@ body{
     padding: 0;
 }
 .body{
+    margin: auto;
     width: 1250px;
     height: 1080px;
 }
