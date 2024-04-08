@@ -1,0 +1,43 @@
+body{
+    margin: auto;
+    padding: 0;
+    width: 1250px;
+    height: 1080px;
+}
+header{
+    display: flex;
+    height: 100px;
+}
+.h1{
+    width: 20%;
+    background-color: #EEEEE9;
+}
+.h2{
+    width: 80%;
+    background-color: #D6CCC2;
+}
+main{
+    height: 880px;
+}
+.m1{
+    height: 50%;
+    background-color: #F5ECE1;
+}
+.m2{
+    display: flex;
+    height: 50%;
+}
+.m2>div{
+    width: 50%;
+}
+.b1{
+    background-color: #E4D6CA;
+}
+.b2{
+    background-color: #D5BEB1;
+}
+footer{
+    height: 100px;
+    background-color: #D6CCC2;
+}
+
