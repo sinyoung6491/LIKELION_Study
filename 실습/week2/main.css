@@ -19,6 +19,11 @@ header{
 main{
     height: 880px;
 }
+.cover{
+    position: relative;
+    height: 880px;
+    width: 1250px;
+}
 .m1{
     height: 50%;
     background-color: #F5ECE1;
@@ -36,6 +41,16 @@ main{
 .b2{
     background-color: #D5BEB1;
 }
+.pop{
+    left: 50%;
+    top: 50%;
+    margin: -300px 0 0 -250px;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background-color: #866756;
+}
+
 footer{
     height: 100px;
     background-color: #D6CCC2;

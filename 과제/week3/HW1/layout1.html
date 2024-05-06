@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>타이머</title>
+    <link rel="stylesheet" href="layout1.css">
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <h1>Timer</h1>
+            <div class="add">
+                <input type="text" placeholder="시간을 입력해주세요." id="input_Num">
+                <button id="addbtn"><img src="./img/plus.svg" alt="plus button"></button>
+            </div>
+        </header>
+        <main id="main">
+            <div class="circle">
+                <h1 id="time">00:00</h1>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded',()=> {
+            const InputNum = document.getElementById('input_Num');
+            const Addbtn = document.getElementById('addbtn');
+            const Time = document.getElementById('time');
+            let timerId = null; // 타이머 ID를 저장할 변수
+            let timeInSeconds = 0;
+
+            Addbtn.addEventListener('click',() => {
+                let timeInMinutes = parseInt(InputNum.value, 10);
+
+                if(isNaN(timeInMinutes) || timeInMinutes == 0){
+                    alert('내용을 입력해주세요')
+                    return
+                }
+                timeInSeconds = timeInSeconds + (timeInMinutes * 60);
+
+                if (timerId !== null) {
+                    clearInterval(timerId); // 이전 타이머 중지
+                }
+
+                timerId = setInterval(function () {
+                    minutes = parseInt(timeInSeconds / 60, 10);
+                    seconds = parseInt(timeInSeconds % 60, 10);
+
+                    minutes = minutes < 10 ? "0" + minutes : minutes;
+                    seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                    Time.textContent = minutes +":" + seconds;
+
+                    if (--timeInSeconds < 0) {
+                        Time.textContent = "00:00";
+                        alert('타이머가 종료되었습니다!');
+                        clearInterval(timerId);
+                    }
+                }, 1000);
+            })
+        })
+    </script>
+</body>
+</html>
