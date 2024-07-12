@@ -1,0 +1,39 @@
+.product-list {
+    padding: 20px;
+    margin-top: 20px; /* 배너와의 간격 설정 */
+  
+    h2 {
+      margin-bottom: 20px;
+    }
+  
+    .product-categories {
+      margin-bottom: 20px;
+      span {
+        margin-right: 10px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+  
+    .slick-slide {
+      padding: 0 10px;
+    }
+  
+    .product {
+      text-align: center;
+  
+      img {
+        width: 100%;
+        height: auto;
+      }
+  
+      p {
+        margin: 10px 0;
+      }
+    }
+  
+    .slick-prev, .slick-next {
+      z-index: 1;
+    }
+  }
+  
