@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.banner {
+  margin-bottom: 20px; /* 배너와 다음 섹션 사이의 간격 설정 */
+}
+
+.product-list {
+  margin-top: 20px; /* 배너와의 간격 설정 */
+}
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}

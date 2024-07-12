@@ -1,0 +1,19 @@
+.special-offers {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  
+    .offer {
+      width: 300px;
+  
+      img {
+        width: 100%;
+      }
+  
+      p {
+        text-align: center;
+        margin-top: 10px;
+      }
+    }
+  }
+  
