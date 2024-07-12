@@ -14,6 +14,12 @@ function Header() {
           <li>Brand</li>
         </ul>
       </nav>
+      <div>
+        <img src="/src/styles/img/icon1.png" alt="" />
+        <img src="/src/styles/img/icon2.png" alt="" />
+        <img src="/src/styles/img/icon3.png" alt="" />
+        <img src="/src/styles/img/icon4.png" alt="" />
+      </div>
     </header>
   );
 }
