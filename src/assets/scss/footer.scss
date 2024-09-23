@@ -1,0 +1,31 @@
+.footer {
+    width: 100%;
+    background-color: #333;
+
+    .div {
+        position: relative;
+        z-index: 11;
+        width: 1640px;
+        margin: 0 auto;
+        padding: 43px 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    img {
+        margin-left: 43px;
+        display: block;
+        width: 139px;
+        height: 45px;
+        margin-right: 40px;
+    }
+
+    p {
+        padding-left: 40px;
+        border-left: 1px solid #444;
+        font-size: 14px;
+        color: #aaa;
+        line-height: 22px;
+    }
+}
